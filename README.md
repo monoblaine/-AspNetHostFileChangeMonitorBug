@@ -45,10 +45,4 @@ Therefore making sure we set utc values in the default constructor of `FileAttri
      }
 ```
 
-Here is a tiny Mvc app that reproduces the problem:
-
-https://github.com/monoblaine/AspNetHostFileChangeMonitorBug
-
-It includes the example code I've given above with some additional checks.
-
 By the way, I was unable to reproduce this error in an ASP.NET Core App or a .NET Framework Console App.
